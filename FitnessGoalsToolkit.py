@@ -68,7 +68,7 @@ def print_imc_status(imc):
 
 def print_calories_and_macros(calculo, peso, objetivo):
     if objetivo == "EMAGRECIMENTO":
-        calorias_objetivo = calculo - 500
+        calorias_objetivo = calculo - (calculo * 0.20)
         print(f"Para emagrecimento, você precisa consumir aproximadamente {Color.GREEN}{calorias_objetivo:.2f} calorias{Color.ENDC} por dia.")
     else:
         calorias_objetivo = calculo + 300
