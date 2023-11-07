@@ -16,7 +16,7 @@ def main():
     nome = input("NOME => ")
     idade = int(input("IDADE => "))
     peso = float(input("PESO (kg) => "))
-    altura = float(input("ALTURA (m) => "))
+    altura = float(input("ALTURA (m) ex:(1.74) => "))
 
     sexo = get_valid_sex()
     objetivo = get_valid_goal()
